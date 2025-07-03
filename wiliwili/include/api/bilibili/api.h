@@ -8,8 +8,8 @@ namespace bilibili {
 
 namespace Api {
 
-const std::string _apiBase     = "//api.bilibili.com";
-const std::string _appBase     = "//app.bilibili.com";
+const std::string _apiBase     = "//m.youtube.com";
+const std::string _appBase     = "//www.youtube.com";
 const std::string _vcBase      = "//api.vc.bilibili.com";
 const std::string _bvcBase     = "//bvc.bilivideo.com";
 const std::string _liveBase    = "//api.live.bilibili.com";
@@ -17,6 +17,10 @@ const std::string _passBase    = "//passport.bilibili.com";
 const std::string _bangumiBase = "//bangumi.bilibili.com";
 const std::string _grpcBase    = "//grpc.biliapi.net";
 
+// innertube api key
+const std::string apiKey = "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8";
+
+const std::string playerUrl = _apiBase + "/youtubei/v1/player?key=" + apiKey;
 /// ===
 /// 视频API
 /// ===
